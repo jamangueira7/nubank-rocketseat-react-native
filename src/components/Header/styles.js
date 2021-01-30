@@ -6,16 +6,16 @@ export const Container = styled.View`
 `;
 
 export const Top = styled.View`
+  flex-direction: row;
   align-items: center;
-  padding: 40px 0 30px;
+  margin-bottom: 10px;
 `;
 
-export const Logo = styled.View`
-  align-items: center;
-  padding: 40px 0 30px;
-`;
+export const Logo = styled.Image``;
 
 export const Title = styled.Text`
-  align-items: center;
-  padding: 40px 0 30px;
+  font-size: 18px;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: 8px;
 `;
