@@ -13,9 +13,15 @@ import {
 } from '~/components/Menu/styles';
 
 
-export default function Menu() {
+export default function Menu({ translateY }) {
   return (
-    <Container>
+    <Container style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [1, 0],
+      }),
+    }}
+    >
       <Code>
         <QRCode
           value="https://rocketseat.com.br"
