@@ -99,7 +99,7 @@ export default function Main() {
         </PanGestureHandler>
 
       </Content>
-      <Tabs />
+      <Tabs translateY={translateY} />
     </Container>
   );
 }
