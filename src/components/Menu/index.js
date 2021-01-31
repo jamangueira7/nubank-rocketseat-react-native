@@ -18,7 +18,7 @@ export default function Menu({ translateY }) {
       style={{
         opacity: translateY.interpolate({
           inputRange: [0, 150],
-          outputRange: [1, 0],
+          outputRange: [0, 1],
         }),
       }}
     >
