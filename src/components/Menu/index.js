@@ -12,22 +12,22 @@ import {
   SingOutButtonText,
 } from '~/components/Menu/styles';
 
-
 export default function Menu({ translateY }) {
   return (
-    <Container style={{
-      opacity: translateY.interpolate({
-        inputRange: [0, 150],
-        outputRange: [1, 0],
-      }),
-    }}
+    <Container
+      style={{
+        opacity: translateY.interpolate({
+          inputRange: [0, 150],
+          outputRange: [1, 0],
+        }),
+      }}
     >
       <Code>
         <QRCode
           value="https://rocketseat.com.br"
           logoSize={80}
-          logoBackgroundColor="#FFF"
           color="#8B10AE"
+          logoBackgroundColor="#FFF"
         />
       </Code>
       <Nav>
@@ -48,6 +48,7 @@ export default function Menu({ translateY }) {
           <NavText>Configurações do app</NavText>
         </NavItem>
       </Nav>
+
       <SingOutButton onPress={() => {}}>
         <SingOutButtonText>SAIR DO APP</SingOutButtonText>
       </SingOutButton>
