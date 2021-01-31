@@ -27,15 +27,15 @@ Video da Rocketseat desenvolvendo o projeto [Link](https://www.youtube.com/watch
 
 
 <p width="450" height="800" align="center">
-  <img alt="Projeto após a inicialização" src=".github/imagem1.PNG" width="100%">
+  <img alt="Projeto após a inicialização" src=".github/imagem1.PNG" width="200" height="600">
 </p>
 
 <p width="450" height="800" align="center">
-  <img alt="Painel pode ser arrastado para baixo" src=".github/imagem2.PNG" width="100%">
+  <img alt="Painel pode ser arrastado para baixo" src=".github/imagem2.PNG" width="200" height="600">
 </p>
 
 <p width="450" height="800" align="center">
-  <img alt="Animação" src=".github/animation.gif" width="100%">
+  <img alt="Animação" src=".github/animation.gif" width="200" height="600">
 </p>
 
 ## 🚀 Como Rodar
