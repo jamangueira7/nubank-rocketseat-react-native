@@ -35,7 +35,7 @@ Video da Rocketseat desenvolvendo o projeto [Link](https://www.youtube.com/watch
 </p>
 
 <p width="450" height="800" align="center">
-  <img alt="Animação" src=".github/animation.gif" width="350" height="650">
+  <img alt="Animação" src=".github/animation.gif" width="340" height="650">
 </p>
 
 ## 🚀 Como Rodar
